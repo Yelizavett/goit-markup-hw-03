@@ -1,0 +1,127 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: #E5E5E5;
+    color:  #434455;
+}
+.link {
+    text-decoration: none;
+}
+
+/* navigation */
+.list {
+    list-style: none
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-header {
+    color: #2e2f42;
+}
+
+.navigation-list {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contacts {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.navigation-list:hover {
+    color: #404BBF;
+}
+
+.contacts:hover {
+    color: #404BBF;
+}
+
+.navigation-list:focus {
+    color: #404BBF;
+}
+
+.contacts:focus {
+    color: #404BBF;
+}
+/* filter */
+
+.filter-button{ font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer}
+.filter-button:hover{background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+    border: 1px solid #404BBF;}
+.filter-button:focus {
+    background: #404BBF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ color: #FFFFFF;
+ border: 1px solid #404BBF;
+ }
+
+/* Projects */
+.list{list-style: none}
+.projects-title{font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;}
+
+.projects-text{
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;}
+
+/* footer */
+.footer {
+    background-color: #2e2f42;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-studio {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
