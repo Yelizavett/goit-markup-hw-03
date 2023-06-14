@@ -58,13 +58,6 @@ img {
 list-style: none
 }
 
-.container {
-width: 1158px;
-margin: 0 auto;
-padding-right: 15px;
-padding-left: 15px;
-}
-
 /**-------------------------- Header ------------------------*/
 
 .flex-list {
@@ -73,7 +66,7 @@ align-items: center;
 gap: 40px;
 }
 
-.container-header {
+.container {
     display: flex;
     width: 1158px;
     margin: 0 auto;
@@ -159,6 +152,13 @@ color: var(--pressed-state);
 gap: 24px; 
 justify-content: center;
 margin-bottom: 72px;
+}
+
+.container-main {
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .section-projects {
