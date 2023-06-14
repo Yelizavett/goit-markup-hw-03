@@ -1,12 +1,13 @@
-body { font-family: "Roboto", sans-serif;
-background-color: #FFFFFF;
-color: #434455; }
-
 :root {
     --brand-color: #4D5AE5;
     --footer-background-color: #2e2f42;
     --pressed-state-color: #404BBF;
+
 }
+
+body { font-family: "Roboto", sans-serif;
+background-color: #FFFFFF;
+color: #434455; }
 
 p,
 h1,
@@ -45,8 +46,9 @@ img {
     overflow: hidden;
 }
 
-.container { width: 1158px; margin: 0 auto;
-padding: 0 15px 0 15px;
+.container { width: 1158px; 
+margin: 0 auto;
+padding: 0 15p;
 }
 
 /**-------------------- header --------------------*/
