@@ -80,10 +80,10 @@ gap: 40px;
 }
 
 .flex-nav {
-display: flex;
-align-items: center;
-padding-top: 24px;
-padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+ padding-top: 24px;
+ padding-bottom: 24px;
 }
 
 .header {
@@ -208,11 +208,6 @@ white-space: nowrap;
 border: 1px solid var(--accent);
 border-top: none;
 margin-bottom: 8px; }
-
-.container-projects { width: 1158px;
-    padding-bottom: 60px;
-    margin: 0 auto;
-    background-color: var(--white-background); }
 
 .projects-title {
     font-weight: 500;
