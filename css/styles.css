@@ -1,13 +1,19 @@
 :root {
-    --brand-color: #4D5AE5;
-    --footer-background-color: #2e2f42;
-    --pressed-state-color: #404BBF;
-
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2e2f42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
 }
 
 body { font-family: "Roboto", sans-serif;
-background-color: #FFFFFF;
-color: #434455; }
+background-color: var(--white-background);
+color: var(--text); }
 
 p,
 h1,
@@ -76,8 +82,8 @@ padding-bottom: 24px;
 }
 
 .header {
-    background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
+    background: var(--white-background);
+    border-bottom: 1px solid var(--accent);
     display: flex;
     flex-direction: row;
 }
@@ -91,7 +97,7 @@ padding-bottom: 24px;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--brand-color);
+    color: var(--primary-brand);
 margin-right: 76px; }
 
 .logo-header {
@@ -110,28 +116,28 @@ margin-left: auto; }
 
 .contacts{line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
+    color: var(--text); 
 padding: 24px 0 24px; }
 
 .navigation-list:hover {
-    color: var(--pressed-state-color);
+    color: var(--pressed-state);
 }
 
 .contacts:hover {
-    color: var(--pressed-state-color);
+    color: var(--pressed-state);
 }
 
 .navigation-list:focus {
-    color: var(--pressed-state-color);
+    color: var(--pressed-state);
 }
 
 .contacts:focus {
-    color: var(--pressed-state-color);
+    color: var(--pressed-state);
 }
 
 /**-------------------- hero ---------------------*/
 
-.hero { background-color: #2e2f42;
+.hero { background-color: var(--dark);
     padding: 188px 0 188px;
 }
 .flex-hero { display: flex;
@@ -142,7 +148,7 @@ align-items: center; }
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--white-background);
 margin-bottom: 48px; 
 width: 496px;
 height: 120px; 
@@ -150,25 +156,25 @@ text-align: center;
 max-width: 496px; }
 
 .hero-button { font-family: "Roboto", sans-serif ;
-background-color: #4D5AE5;
+background-color: var(--primary-brand);
 font-size: 16px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--white-background);
 cursor: pointer;
 padding: 16px 32px;
-border: #4D5AE5;
+border: var(--primary-brand);
 min-width: 169px
 }
 
-.hero-button:hover { background: #404BBF;
+.hero-button:hover { background: var(--pressed-state);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px; }
 
-.hero-button:focus { background: #404BBF;
+.hero-button:focus { background: var(--pressed-state);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px; }
 
@@ -189,13 +195,13 @@ gap: 24px; }
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--dark);
 margin-bottom: 8px; }
 
 .skills-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455; }
+color: var(--dark); }
 
 /**------------------- What are we doing ------------------*/
 
@@ -212,13 +218,13 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--dark);
 margin-bottom: 72px;
 }
 
 /**---------------------- Our Team ---------------------------*/
 
-.our-team { background-color: #F4F4FD;
+.our-team { background-color: var(--light);
     padding: 120px 0 120px;
 }
 
@@ -227,7 +233,7 @@ gap: 24px; }
 
 .team-information { padding: 32px 16px 32px; }
 
-.team-list { background-color: #FFFFFF;
+.team-list { background-color: var(--white-background);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px; 
 width: calc((100% - 72px) / 4); }
@@ -236,19 +242,19 @@ width: calc((100% - 72px) / 4); }
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--dark);
 margin-bottom: 8px;
 text-align: center; }
 
 .profession {
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text);
 text-align: center; }
 
 /**--------------------- footer -----------------------------*/
 
-.footer { background-color: #2e2f42;
+.footer { background-color: var(--dark);
     padding: 100px 0 100px;
 }
 
@@ -256,12 +262,12 @@ text-align: center; }
 margin-bottom: 16px; }
 
 .logo-studio {
-color: #f4f4fd;
+color: var(--light);
 }
 
 .footer-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--light);
 padding-top: 16px; 
 max-width: 264px; }
