@@ -61,7 +61,8 @@ list-style: none
 .container {
 width: 1158px;
 margin: 0 auto;
-padding: 0 15px;
+padding-right: 15px;
+padding-left: 15px;
 }
 
 /**-------------------------- Header ------------------------*/
@@ -81,7 +82,8 @@ gap: 40px;
 .flex-nav {
 display: flex;
 align-items: center;
-padding: 24px 0 24px 0;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .header {
@@ -113,7 +115,8 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--footer-background-color);
-padding: 24px 0 24px 0;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .address {
@@ -152,7 +155,8 @@ margin-bottom: 72px;
 
 .section-projects {
     background-color: var(--white-background);
-    padding: 96px 0 120px 0;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .filter-button {
@@ -206,7 +210,7 @@ border-top: none;
 margin-bottom: 8px; }
 
 .container-projects { width: 1158px;
-    padding: 0px 0px 60px 0px;
+    padding-bottom: 60px;
     margin: 0 auto;
     background-color: var(--white-background); }
 
@@ -234,7 +238,8 @@ margin-bottom: 8px; }
 
 .container-footer {
     width: 1158px;
-    padding: 50px 0 50px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 0 auto;
     background-color: var(--dark);
 }
