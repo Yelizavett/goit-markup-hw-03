@@ -51,15 +51,15 @@ img {
 list-style: none
 }
 
-/**-------------------------- Header ------------------------*/
-
-
-.container-header {
+.container {
 width: 1158px;
-padding: 24px 15px;
+padding: 0 15px 0 15px;
 margin: 0 auto;
 background-color: #FFFFFF;
+justify-items: center;
 }
+
+/**-------------------------- Header ------------------------*/
 
 .flex-list {
 display: flex;
@@ -76,6 +76,7 @@ gap: 40px;
 .flex-nav {
 display: flex;
 align-items: center;
+padding: 24px 0 24px 0;
 }
 
 .header {
@@ -95,11 +96,11 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--brand-color);
+margin-right: 76px;
 }
 
 .logo-header {
 color: var(--footer-background-color);
-margin-right: 76px;
 }
 
 .navigation-list {
@@ -107,6 +108,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--footer-background-color);
+padding: 24px 0 24px;
 }
 
 .address {
@@ -138,17 +140,14 @@ color: var(--pressed-state-color);
 /**---------------------------- Filter -------------------------*/
 
 .flex-filter { display: flex;
-    gap: 24px; 
+gap: 24px; 
+justify-content: center;
+margin-bottom: 72px;
 }
 
-.filter {background-color: #ffffff;}
-
-.container-filter {
-    width: 1158px;
-    padding: 96px 427px 72px 427px ;
-    margin: 0 ;
-    background-color: #ffffff;
-    justify-items: center;
+.section-projects {
+    background-color: #FFFFFF;
+    padding: 96px 0 120px 0;
 }
 
 .filter-button {
@@ -172,14 +171,14 @@ white-space: nowrap;
     background: var(--pressed-state-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: #FFFFFF;
-    border: 1px solid var(--pressed-state-color);
+    border: 1px solid transparent;
 }
 
 .filter-button:focus {
     background: var(--pressed-state-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: #FFFFFF;
-    border: 1px solid var(--pressed-state-color);
+    border: 1px solid transparent
 }
 
 /**--------------------------- Projects ---------------------------------*/
@@ -193,8 +192,6 @@ white-space: nowrap;
     flex-basis: calc((100% - 48px) / 3);
     background-color: #FFFFFF;
 }
-
-.section-projects { background-color: #FFFFFF; }
 
 .project {border: 1px solid #E7E9FC; 
 }

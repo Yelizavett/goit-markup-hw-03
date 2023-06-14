@@ -45,16 +45,15 @@ img {
     overflow: hidden;
 }
 
+.container { width: 1158px; margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
 /**-------------------- header --------------------*/
 
 .list {
     list-style: none
 }
-
-.container-header { width: 1158px;
-padding: 24px 15px;
-margin: 0 auto;
-background-color: #FFFFFF; }
 
 .flex-list {
 display: flex;
@@ -69,7 +68,8 @@ gap: 40px;
     }
 
 .flex-nav { display: flex;
-    align-items: center; }
+    align-items: center; 
+   padding: 15px 0 15px 0; }
 
 .header {
     background: #FFFFFF;
@@ -87,11 +87,11 @@ gap: 40px;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--brand-color); }
+    color: var(--brand-color);
+margin-right: 76px; }
 
 .logo-header {
     color: var(--footer-background-color);
-    margin-right: 76px;
 }
 
 .navigation-list {
@@ -106,7 +106,8 @@ margin-left: auto; }
 
 .contacts{line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; }
+    color: #434455; 
+padding: 24px 0 24px; }
 
 .navigation-list:hover {
     color: var(--pressed-state-color);
@@ -127,15 +128,8 @@ margin-left: auto; }
 /**-------------------- hero ---------------------*/
 
 .hero { background-color: #2e2f42;
+    padding: 188px 0 188px;
 }
-
-.container-hero {
-width: 1158px;
-padding: 188px 15px;
-margin: 0 auto;
-background-color: #2e2f42;
-}
-
 .flex-hero { display: flex;
 flex-direction: column;
 align-items: center; }
@@ -148,7 +142,8 @@ color: #FFFFFF;
 margin-bottom: 48px; 
 width: 496px;
 height: 120px; 
-text-align: center; }
+text-align: center; 
+max-width: 496px; }
 
 .hero-button { font-family: "Roboto", sans-serif ;
 background-color: #4D5AE5;
@@ -162,6 +157,7 @@ color: #FFFFFF;
 cursor: pointer;
 padding: 16px 32px;
 border: #4D5AE5;
+min-width: 169px
 }
 
 .hero-button:hover { background: #404BBF;
@@ -174,17 +170,12 @@ border-radius: 4px; }
 
 /**--------------------- skills ---------------------------*/
 
-.container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
 .skills{
 padding-top: 120px;
 padding-bottom: 120px;
 }
+
+.skills-list { width: calc((100% - 72px) / 4); }
 
 .flex-skills { 
 display: flex;
@@ -195,7 +186,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-padding-bottom: 8px; }
+margin-bottom: 8px; }
 
 .skills-text {
 line-height: 1.5;
@@ -207,7 +198,9 @@ color: #434455; }
 .section-doing { padding-bottom: 120px; }
 
 .flex-doing { display: flex;
-    gap: 24px; }
+gap: 24px; }
+
+.doing-list { width: calc((100% - 48px) / 3); }
 
 .title { font-weight: 700;
 font-size: 36px;
@@ -216,22 +209,19 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
-padding-bottom: 72px; }
+margin-bottom: 72px;
+}
 
 /**---------------------- Our Team ---------------------------*/
 
 .our-team { background-color: #F4F4FD;
-}
-
-.container-team {
-width: 1158px;
-padding: 120px 15px;
-margin: 0 auto;
-background-color: #F4F4FD;
+    padding: 120px 0 120px;
 }
 
 .flex-team { display: flex;
-    gap: 24px; }
+gap: 24px; }
+
+.team-information { padding: 32px 16px 32px; }
 
 .team-list { background-color: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -242,40 +232,23 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-padding-top: 32px;
-padding-bottom: 8px;
+margin-bottom: 8px;
 text-align: center; }
 
 .profession {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-padding-bottom: 32px;
 text-align: center; }
 
 /**--------------------- footer -----------------------------*/
 
 .footer { background-color: #2e2f42;
+    padding: 100px 0 100px;
 }
 
-.container-footer {
-width: 1158px;
-padding: 50px 15px;
-margin: 0 auto;
-background-color: #2e2f42;
-}
-
-.logo {
-font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
-}
+.logo-footer { display: inline-block; 
+margin-bottom: 16px; }
 
 .logo-studio {
 color: #f4f4fd;
