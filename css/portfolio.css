@@ -73,11 +73,13 @@ align-items: center;
 gap: 40px;
 }
 
-.container-header { display: flex; 
-width: 1158px;
-margin: 0 auto;
-padding-right: 15px;
-padding-left: 15px; }
+.container-header {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
 .flex-address {
 display: flex;
