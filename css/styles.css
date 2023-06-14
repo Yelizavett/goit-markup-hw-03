@@ -48,7 +48,7 @@ img {
 
 .container { width: 1158px; 
 margin: 0 auto;
-padding: 0 15p;
+padding: 0 15px;
 }
 
 /**-------------------- header --------------------*/
@@ -229,7 +229,8 @@ gap: 24px; }
 
 .team-list { background-color: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px; }
+border-radius: 0px 0px 4px 4px; 
+width: calc((100% - 72px) / 4); }
 
 .name { font-weight: 500;
 font-size: 20px;
