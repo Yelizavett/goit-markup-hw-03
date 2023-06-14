@@ -65,7 +65,9 @@ list-style: none
     padding-left: 15px;
     display: flex;
     flex-wrap: wrap;
-justify-content: center;
+    justify-content: center;
+padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /**-------------------------- Header ------------------------*/
@@ -80,13 +82,6 @@ gap: 40px;
 display: flex;
 align-items: center;
 gap: 40px;
-}
-
-.flex-nav {
-    display: flex;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header {
@@ -159,8 +154,8 @@ margin-bottom: 72px;
 
 .section-projects {
     background-color: var(--white-background);
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding-top: 72px;
+    padding-bottom: 96px;
 
 }
 
@@ -220,7 +215,6 @@ margin-bottom: 8px; }
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -238,8 +232,8 @@ margin-bottom: 8px; }
 
 .container-footer {
     width: 1158px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin: 0 auto;
     background-color: var(--dark);
 }
