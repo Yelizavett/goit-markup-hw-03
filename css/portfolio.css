@@ -64,6 +64,8 @@ list-style: none
     padding-right: 15px;
     padding-left: 15px;
     display: flex;
+    flex-wrap: wrap;
+justify-content: center;
 }
 
 /**-------------------------- Header ------------------------*/
@@ -152,12 +154,14 @@ color: var(--pressed-state);
 gap: 24px; 
 justify-content: center;
 margin-bottom: 72px;
+
 }
 
 .section-projects {
     background-color: var(--white-background);
     padding-top: 96px;
     padding-bottom: 120px;
+
 }
 
 .filter-button {
