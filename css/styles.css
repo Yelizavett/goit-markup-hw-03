@@ -263,8 +263,7 @@ text-align: center; }
     padding: 100px 0 100px;
 }
 
-.logo-footer { display: inline-block; 
-margin-bottom: 16px; }
+.logo-footer { display: inline-block; }
 
 .logo-studio {
 color: var(--light);
